@@ -1,0 +1,97 @@
+<html>
+<head>
+<meta name="google-signin-client_id" content="405350839949-8lqqc9g9kgh6af5vo7bh49v06vnbjj4r.apps.googleusercontent.com">
+	<style >
+	body{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	background: #626567;
+}
+.grandParentContaniner{
+		display:table; height:100%; margin: 0 auto;
+	}
+
+	.parentContainer{
+		display:table-cell; vertical-align:middle;
+	}	
+.topnav {
+  background-color: #040E55;
+  overflow: hidden;
+}
+h2{
+  background-color: none;
+  border-right-style: solid;
+  border-right-color: black;
+  width: 100%;
+  text-underline-position: auto;
+}	
+marquee{
+      font-size: 15px;
+      font-weight: 800;
+      color: #1F618D;
+      font-family: sans-serif;
+      }
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+</style>
+
+</head>
+<title> HP GOVT. Curfew Pass </title>
+<link rel="icon" href="HPGovt.png" type="image/icon type">
+<div class="topnav">
+  <p style="text-align:center; color: white;"><img class="a" src="HPGovt.png" width="100" height="60"><strong> HIMACHAL PRADESH - Curfew Pass</strong><img class="a" src="Police.png" width="150" height="70"></p>
+</div>
+<marquee width="60%" direction="center " height="100px">
+    HELP US TO FIGHT COVID-19 BY STAYING AT YOUR HOME.
+  </marquee>
+  <h2 style="text-align:center">OFFICIAL LOGIN</h2>
+      <br><br>
+<div class="col s12 m6 offset-m3 center-align">
+    <a class="oauth-container btn darken-4 white black-text" href="adminsheets.html" style="text-transform:none">
+        <div class="left">
+            <img width="45px" style="margin-top:7px; margin-right:8px" alt="Google sign-in" 
+                src="sheets.jpg" />
+        </div>
+        Open Spreadsheets
+    </a>
+</div>
+<br>
+<div class="col s12 m6 offset-m3 center-align">
+    <a class="oauth-container btn darken-4 white black-text" href="adminselect.html"style="text-transform:none">
+        <div class="left">
+            <img width="35px" style="margin-top:7px; margin-right:8px" alt="Google sign-in" 
+                src="forms.png" />
+        </div>
+        Open Forms
+    </a>
+</div>
+<a href="userLogin.html" onclick="signOut();">Sign out</a>
+<script>
+  function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">

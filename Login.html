@@ -1,0 +1,85 @@
+<html>
+<head>
+  <meta name="google-signin-scope" content="profile email">
+	<meta name="google-signin-client_id" content="405350839949-fo0pbu8g744innk17umcd873kpni7pns.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+</head>
+<title> HP GOVT. Curfew Pass </title>
+<link rel="icon" href="HPGovt.png" type="image/icon type">
+<style >
+	body{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	background: #626567;
+}
+.grandParentContaniner{
+		display:table; height:100%; margin: 0 auto;
+	}
+
+	.parentContainer{
+		display:table-cell; vertical-align:middle;
+	}	
+.topnav {
+  background-color: #040E55;
+  overflow: hidden;
+}
+h2{
+  background-color: none;
+  border-right-style: solid;
+  border-right-color: black;
+  width: 100%;
+  text-underline-position: auto;
+}	
+marquee{
+      font-size: 15px;
+      font-weight: 800;
+      color: #1F618D;
+      font-family: sans-serif;
+      }
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+.g-signin2{
+  text-align: center;
+}
+</style>
+<body>
+<div class="topnav">
+  <p style="text-align:center; color: white;"><img class="a" src="HPGovt.png" width="100" height="60"><strong> HIMACHAL PRADESH - Curfew Pass</strong><img class="a" src="Police.png" width="150" height="70"></p>
+</div>
+<marquee width="60%" direction="center " height="100px">
+    HELP US TO FIGHT COVID-19 BY STAYING AT YOUR HOME.
+  </marquee>
+      <h2 style="text-align:center">OFFICIAL LOGIN</h2>
+      <br><br>
+
+
+
+<div class="g-signin2" data-onsuccess="onSignIn" href = "LinkPage.html">
+  <script>
+  function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+   window.location = "http://localhost/scripts/LinkPage.html";}
+</script>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+</body>
+</html>
